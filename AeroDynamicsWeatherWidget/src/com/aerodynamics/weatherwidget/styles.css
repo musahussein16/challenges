@@ -1,0 +1,51 @@
+/* styles.css */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.combo-box {
+    -fx-background-color: rgba(255,255,255,0.07);
+    -fx-border-color: rgba(255,255,255,0.1);
+    -fx-border-radius: 6px;
+    -fx-text-fill: #E6F1FF;
+    -fx-padding: 8px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #162447;
+    -fx-text-fill: #E6F1FF;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #162447;
+    -fx-background-insets: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.combo-box .list-view .list-cell {
+    -fx-padding: 8px;
+}
+
+.combo-box .list-view .list-cell:filled:hover {
+    -fx-background-color: #00509E;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 8, 0, 0, 3);
+}
+
+.indicator {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.indicator:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 8, 0, 0, 3);
+    -fx-translate-y: -3px;
+}
+
